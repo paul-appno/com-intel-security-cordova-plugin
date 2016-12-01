@@ -76,28 +76,22 @@ Cordova plugin
 	How to use the plugin from Visual Studio 2015 (Apache Cordova project):
 	=======================================================================
 		
-		The following steps describes how to create a Cordova based app with App Security API for Windows:
+		The following steps describe how to create a Cordova based app with App Security API for Windows:
 		
 		1. Create a new Apache Cordova project from Visual Studio 2015 (Javascript projects type). If you don't have this type you probably not running the latest update of Visual Studio 2015.
 		
-		2. Build the (empty) project but make sure you choose Windows (next to the run debug button). This creates the platform folder and specifically Windows platform.
-		
-		3. Add App Security API plugin by:
+		2. Add App Security API plugin by:
 			a) double click on config.xml file 
 			b) choose plugins tab
 			c) choose custom and copy the github link of the plugin: https://github.com/AppSecurityApi/com-intel-security-cordova-plugin.git
 		
-		4. Add your web app content to the www folder.
+		3. Add your web app content to the www folder.
 		
-		5. Build the project, again make sure you build for Windows.
-		
-		6. Open the CordovaApp.sln from ProjectRootDirectory/platforms/windows (Visual Studio 2015)
-		
-		7. Build the project and now you have your app up and running using the plugin for Windows OS.
+		4. Build the project, again make sure you build for Windows.
+	
 		
 		
-		
-		The following steps describes how to create a Cordova based app with App Security API for Android:
+		The following steps describe how to create a Cordova based app with App Security API for Android:
 		
 		1. Create a new Apache Cordova project from Visual Studio 2015 (Javascript projects type). If you don't have this type you probably not running the latest update of Visual Studio 2015.
 		

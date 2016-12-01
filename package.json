@@ -1,6 +1,6 @@
 {
   "name": "com-intel-security-cordova-plugin",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "App Security API plugin",
   "cordova": {
     "id": "com-intel-security-cordova-plugin",
