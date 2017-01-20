@@ -341,8 +341,8 @@ var _internalSecureData = {
             var webOwnersJSON = "[]";
             try {   
                 if (defaults.webOwners != null) {
-                    for (var webOwner in defaults.webOwners) {
-                        if (typeof (defaults.webOwners[webOwner]) != "string") {
+                    for (var webOwner of defaults.webOwners) {
+                        if (typeof (webOwner) != "string") {
                             failInternal('Argument type inconsistency detected', fail);
                             return;
                         }
